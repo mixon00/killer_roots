@@ -32,6 +32,28 @@
       "actions": [
         {
           "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NewParticlesEmitter",
+            "Ludek.CenterX()",
+            "Ludek.CenterY()",
+            "\"FG\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "NewParticlesEmitter",
+            "=",
+            "270"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.679140990977679,
+    "zoomFactor": 0.3703042511155527,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,7 +27,7 @@
       "folded": true,
       "name": "spawn_time",
       "type": "number",
-      "value": 10
+      "value": 5
     },
     {
       "folded": true,
@@ -749,6 +749,51 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 75,
+      "emitterForceMax": 250,
+      "emitterForceMin": 150,
+      "flow": 1000,
+      "maxParticleNb": 300,
+      "name": "NewParticlesEmitter",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 27,
+      "particleGravityX": 0,
+      "particleGravityY": 1000,
+      "particleGreen1": 51,
+      "particleGreen2": 2,
+      "particleLifeTimeMax": 4,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 255,
+      "particleRed2": 208,
+      "particleSize1": 50,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": 1000,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
