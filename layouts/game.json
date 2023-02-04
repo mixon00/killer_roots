@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5236892941320279,
+    "zoomFactor": 0.37030425111555354,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -222,7 +222,14 @@
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 1
+        }
+      ]
     },
     {
       "angle": 0,
@@ -237,7 +244,14 @@
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 5
+        }
+      ]
     },
     {
       "angle": 0,
@@ -252,7 +266,14 @@
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 4
+        }
+      ]
     },
     {
       "angle": 0,
@@ -267,7 +288,14 @@
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 3
+        }
+      ]
     },
     {
       "angle": 0,
@@ -282,7 +310,14 @@
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 2
+        }
+      ]
     }
   ],
   "objects": [
@@ -531,7 +566,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
