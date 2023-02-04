@@ -601,7 +601,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "RootSpawner.png",
                   "points": [],
                   "originPoint": {
@@ -615,7 +615,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 66
+                      },
+                      {
+                        "x": 160,
+                        "y": 66
+                      },
+                      {
+                        "x": 0,
+                        "y": 66
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -642,7 +657,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "foreground grass.png",
                   "points": [],
                   "originPoint": {
@@ -656,7 +671,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1503,
+                        "y": 229
+                      },
+                      {
+                        "x": 1503,
+                        "y": 229
+                      },
+                      {
+                        "x": 0,
+                        "y": 229
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -683,7 +713,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "foreground dirt.png",
                   "points": [],
                   "originPoint": {
@@ -697,7 +727,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1505,
+                        "y": 83
+                      },
+                      {
+                        "x": 1505,
+                        "y": 83
+                      },
+                      {
+                        "x": 0,
+                        "y": 83
+                      }
+                    ]
+                  ]
                 }
               ]
             }

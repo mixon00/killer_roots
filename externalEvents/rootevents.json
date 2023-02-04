@@ -93,7 +93,7 @@
             "Root",
             "Tween",
             "\"up\"",
-            "615",
+            "480",
             "\"linear\"",
             "100",
             ""
@@ -144,7 +144,7 @@
             "Root",
             "Tween",
             "\"down\"",
-            "680",
+            "615",
             "\"linear\"",
             "Root.Variable(cooldown) * 1000",
             ""
