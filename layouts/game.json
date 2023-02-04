@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.42169827257248377,
+    "zoomFactor": 0.5236892941320279,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -193,6 +193,21 @@
           "value": 5
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 231,
+      "layer": "",
+      "name": "Foreground",
+      "persistentUuid": "beab43ce-0f30-4fd8-9713-4bc184e7ce43",
+      "width": 1328,
+      "x": -14,
+      "y": 517,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -330,7 +345,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "drzewo lewo scena1.png",
+                  "image": "drzewo lewo scena2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -394,8 +409,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "root.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "root2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -408,30 +423,89 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 18.570627212524414,
-                        "y": 106.25823974609375
-                      },
-                      {
-                        "x": 39.03213119506836,
-                        "y": 41.50075912475586
-                      },
-                      {
-                        "x": 76.33765411376953,
-                        "y": 81.31394958496094
-                      },
-                      {
-                        "x": 71.54011535644531,
-                        "y": 189.63563537597656
-                      },
-                      {
-                        "x": 22.130281448364258,
-                        "y": 183.7919158935547
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RootSpawner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "RootSpawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Foreground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "no_anim",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "foreground.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
