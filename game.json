@@ -90,6 +90,24 @@
         "name": "root.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "drzewo lewo scena12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drzewo lewo scena12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "drzewo lewo scena13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drzewo lewo scena13.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -46,7 +46,7 @@
       "persistentUuid": "91826a87-2a3c-45f8-91af-f1cac0f88862",
       "width": 1330,
       "x": -15,
-      "y": -66,
+      "y": -44,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -330,7 +330,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "drzewo lewo scena1.png",
+                  "image": "drzewo lewo scena13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
