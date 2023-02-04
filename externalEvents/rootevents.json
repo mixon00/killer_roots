@@ -146,7 +146,7 @@
             "\"down\"",
             "680",
             "\"linear\"",
-            "Root.Variable(cooldown)",
+            "Root.Variable(cooldown) * 1000",
             ""
           ]
         }
@@ -188,17 +188,6 @@
           },
           "parameters": [],
           "subInstructions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Tween::IsPlaying"
-              },
-              "parameters": [
-                "Root",
-                "Tween",
-                "\"up\""
-              ]
-            },
             {
               "type": {
                 "value": "PosY"
