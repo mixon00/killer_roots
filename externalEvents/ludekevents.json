@@ -4,7 +4,6 @@
   "name": "LudekEvents",
   "events": [
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -29,7 +28,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -61,8 +59,8 @@
           "parameters": [
             "",
             "Ludek",
-            "580",
-            "SceneWindowWidth() - 10",
+            "1305",
+            "576",
             "\"Actions\""
           ]
         }
@@ -70,8 +68,30 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Ludek",
+            "<=",
+            "230"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Ludek",
+            "LinearMovement",
+            "no"
+          ]
+        }
+      ]
     }
   ]
 }

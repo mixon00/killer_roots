@@ -51,6 +51,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Ludek",
+      "persistentUuid": "09dc405f-948f-49f5-9032-2868120c253c",
+      "width": 0,
+      "x": 1305,
+      "y": 576,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -95,18 +110,18 @@
         {
           "name": "LinearMovement",
           "type": "LinearMovement::LinearMovement",
-          "SpeedX": 0,
+          "SpeedX": -100,
           "SpeedY": 0
         },
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 10,
-          "OffsetX": 1345,
-          "OffsetY": 580,
+          "SpawnPeriod": 1,
+          "OffsetX": 100,
+          "OffsetY": 576,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 1
+          "MaxQuantity": 1000
         }
       ],
       "animations": [
@@ -185,6 +200,13 @@
   ],
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LudekEvents"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -209,6 +231,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
