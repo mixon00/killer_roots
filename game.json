@@ -72,6 +72,15 @@
         "name": "ludek1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "drzewo lewo scena1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drzewo lewo scena1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
