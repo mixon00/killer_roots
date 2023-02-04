@@ -1,0 +1,34 @@
+{
+  "associatedLayout": "Game",
+  "name": "Points",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PointsTxt",
+      "persistentUuid": "86d2bca6-6e7a-4dd9-b936-2470505cc811",
+      "width": 0,
+      "x": 1244,
+      "y": 19,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1.0937499999999984,
+    "windowMask": false
+  }
+}

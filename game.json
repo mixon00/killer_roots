@@ -56,7 +56,15 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "file": "fonts/American Captain.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts/American Captain.ttf",
+        "userAdded": false
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -68,8 +76,18 @@
       "referenceTo": "/layouts/game"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/pointsevents"
+    }
+  ],
   "eventsFunctionsExtensions": [],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/points"
+    }
+  ],
   "externalSourceFiles": []
 }
