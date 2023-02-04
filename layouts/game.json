@@ -22,24 +22,21 @@
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [
+  "variables": [
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Ludek",
-      "persistentUuid": "17ad2cee-52d1-4f63-b5e2-26cc48304fc6",
-      "width": 0,
-      "x": 1061,
-      "y": 308,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "folded": true,
+      "name": "spawn_time",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "folded": true,
+      "name": "level",
+      "type": "number",
+      "value": 0
     }
   ],
+  "instances": [],
   "objects": [
     {
       "assetStoreId": "",
@@ -78,7 +75,24 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LinearMovement",
+          "type": "LinearMovement::LinearMovement",
+          "SpeedX": 0,
+          "SpeedY": 0
+        },
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 10,
+          "OffsetX": 1345,
+          "OffsetY": 580,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 1
+        }
+      ],
       "animations": [
         {
           "name": "Idle",
@@ -113,13 +127,6 @@
     }
   ],
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "PointsEvents"
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -169,7 +176,27 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 7458648,
+      "ambientLightColorG": -2147483568,
+      "ambientLightColorR": 66,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Actions",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "LinearMovement",
+      "type": "LinearMovement::LinearMovement"
+    },
+    {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
+    }
+  ]
 }
