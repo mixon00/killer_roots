@@ -63,6 +63,15 @@
         "metadata": "",
         "name": "fonts/American Captain.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ludek1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ludek1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
