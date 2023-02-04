@@ -171,6 +171,20 @@
             "Root.Variable(cooldown) * 1000",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "Root",
+            "Tween",
+            "\"down_opacity\"",
+            "127",
+            "\"linear\"",
+            "50",
+            ""
+          ]
         }
       ]
     },
@@ -188,18 +202,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Root",
-            "is_hiding",
-            "False"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -233,6 +236,26 @@
             "Tween",
             "\"down\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Root",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Root",
+            "is_hiding",
+            "False"
           ]
         }
       ]
