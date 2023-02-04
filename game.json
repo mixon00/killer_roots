@@ -135,6 +135,24 @@
         "name": "foreground.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "foreground grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "foreground grass.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "foreground dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "foreground dirt.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

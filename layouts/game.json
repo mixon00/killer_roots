@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37030425111555354,
+    "zoomFactor": 0.679140990977679,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -199,12 +199,12 @@
       "customSize": true,
       "height": 231,
       "layer": "FG",
-      "name": "Foreground",
+      "name": "ForegroundGrass",
       "persistentUuid": "beab43ce-0f30-4fd8-9713-4bc184e7ce43",
       "width": 1328,
       "x": -14,
       "y": 517,
-      "zOrder": 8,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,7 +219,7 @@
       "width": 0,
       "x": 209,
       "y": 645,
-      "zOrder": 9,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -241,7 +241,7 @@
       "width": 0,
       "x": 1002,
       "y": 645,
-      "zOrder": 9,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -263,7 +263,7 @@
       "width": 0,
       "x": 804,
       "y": 645,
-      "zOrder": 9,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -285,7 +285,7 @@
       "width": 0,
       "x": 604,
       "y": 645,
-      "zOrder": 9,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -307,7 +307,7 @@
       "width": 0,
       "x": 406,
       "y": 645,
-      "zOrder": 9,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -318,6 +318,21 @@
           "value": 2
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 68,
+      "layer": "FG",
+      "name": "ForegroundDirt",
+      "persistentUuid": "3e81817f-3f98-49b7-9e4a-853c6ac0de01",
+      "width": 1328,
+      "x": -17,
+      "y": 664,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -610,7 +625,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Foreground",
+      "name": "ForegroundGrass",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -628,7 +643,48 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "foreground.png",
+                  "image": "foreground grass.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ForegroundDirt",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No_anim",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "foreground dirt.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
