@@ -153,6 +153,87 @@
         "name": "foreground dirt.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00032.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

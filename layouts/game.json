@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3703042511155527,
+    "zoomFactor": 0.7092091314497622,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -401,8 +401,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "ludek1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "lamberjack_walking0001.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -415,34 +415,87 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15.459657669067383,
-                        "y": 76.54415893554688
-                      },
-                      {
-                        "x": 27.982820510864258,
-                        "y": 33.199214935302734
-                      },
-                      {
-                        "x": 56.29297637939453,
-                        "y": 32.39848327636719
-                      },
-                      {
-                        "x": 91.00481414794922,
-                        "y": 75.17253112792969
-                      },
-                      {
-                        "x": 80.2401351928711,
-                        "y": 131.92880249023438
-                      },
-                      {
-                        "x": 35.407684326171875,
-                        "y": 132.37118530273438
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.24,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "lamberjack_walking00002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "lamberjack_walking00013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "lamberjack_walking00022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "lamberjack_walking00032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
