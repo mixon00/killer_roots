@@ -81,6 +81,15 @@
         "name": "drzewo lewo scena1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "root.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "root.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
