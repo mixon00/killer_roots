@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3251738205085567,
+    "zoomFactor": 0.5468749999999998,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -71,22 +71,40 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Actions",
       "name": "Root",
       "persistentUuid": "64d50d8f-cc35-499c-b340-4a0c351be4fc",
       "width": 0,
       "x": 230,
       "y": 680,
       "zOrder": 3,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "is_hiding",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 1
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Actions",
       "name": "Root",
       "persistentUuid": "64dd58f4-a63e-4e3b-a97d-61cb845e3948",
       "width": 0,
@@ -95,13 +113,20 @@
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 2
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Actions",
       "name": "Root",
       "persistentUuid": "7b0077be-7330-4560-addb-7148ea7fc533",
       "width": 0,
@@ -110,13 +135,20 @@
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 3
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Actions",
       "name": "Root",
       "persistentUuid": "0d4020a8-c356-4129-a325-efedbbd16ec7",
       "width": 0,
@@ -125,13 +157,20 @@
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 4
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Actions",
       "name": "Root",
       "persistentUuid": "919ac2aa-c71e-4ad9-b921-df566a5b4183",
       "width": 0,
@@ -140,7 +179,20 @@
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "is_hiding",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 5
+        }
+      ]
     }
   ],
   "objects": [
@@ -311,6 +363,18 @@
           "name": "is_hiding",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "cooldown",
+          "type": "number",
+          "value": 1
         }
       ],
       "effects": [],
