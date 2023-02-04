@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7733980419227858,
+    "zoomFactor": 0.3251738205085567,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -75,9 +75,69 @@
       "name": "Root",
       "persistentUuid": "64d50d8f-cc35-499c-b340-4a0c351be4fc",
       "width": 0,
-      "x": 1410,
-      "y": 527,
+      "x": 230,
+      "y": 680,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Root",
+      "persistentUuid": "64dd58f4-a63e-4e3b-a97d-61cb845e3948",
+      "width": 0,
+      "x": 430,
+      "y": 680,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Root",
+      "persistentUuid": "7b0077be-7330-4560-addb-7148ea7fc533",
+      "width": 0,
+      "x": 630,
+      "y": 680,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Root",
+      "persistentUuid": "0d4020a8-c356-4129-a325-efedbbd16ec7",
+      "width": 0,
+      "x": 830,
+      "y": 680,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Root",
+      "persistentUuid": "919ac2aa-c71e-4ad9-b921-df566a5b4183",
+      "width": 0,
+      "x": 1030,
+      "y": 680,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -149,7 +209,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ludek1.png",
                   "points": [],
                   "originPoint": {
@@ -163,7 +223,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.459657669067383,
+                        "y": 76.54415893554688
+                      },
+                      {
+                        "x": 27.982820510864258,
+                        "y": 33.199214935302734
+                      },
+                      {
+                        "x": 56.29297637939453,
+                        "y": 32.39848327636719
+                      },
+                      {
+                        "x": 91.00481414794922,
+                        "y": 75.17253112792969
+                      },
+                      {
+                        "x": 80.2401351928711,
+                        "y": 131.92880249023438
+                      },
+                      {
+                        "x": 35.407684326171875,
+                        "y": 132.37118530273438
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -218,9 +305,21 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "is_hiding",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "Idle",
@@ -231,7 +330,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "root.png",
                   "points": [],
                   "originPoint": {
@@ -245,7 +344,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18.570627212524414,
+                        "y": 106.25823974609375
+                      },
+                      {
+                        "x": 39.03213119506836,
+                        "y": 41.50075912475586
+                      },
+                      {
+                        "x": 76.33765411376953,
+                        "y": 81.31394958496094
+                      },
+                      {
+                        "x": 71.54011535644531,
+                        "y": 189.63563537597656
+                      },
+                      {
+                        "x": 22.130281448364258,
+                        "y": 183.7919158935547
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -261,6 +383,13 @@
         "includeConfig": 0
       },
       "target": "LudekEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "RootEvents"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -337,6 +466,10 @@
     {
       "name": "ObjectSpawner",
       "type": "ObjectSpawner::ObjectSpawner"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

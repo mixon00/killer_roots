@@ -1,0 +1,50 @@
+{
+  "associatedLayout": "Game",
+  "lastChangeTimeStamp": 0,
+  "name": "RootEvents",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Root",
+            "Ludek",
+            "",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Root",
+            "is_hiding",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Ludek",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}
