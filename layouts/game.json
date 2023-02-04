@@ -56,12 +56,12 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Actions",
       "name": "Ludek",
       "persistentUuid": "09dc405f-948f-49f5-9032-2868120c253c",
       "width": 0,
-      "x": 1305,
-      "y": 576,
+      "x": 1306,
+      "y": 510,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -76,7 +76,7 @@
       "persistentUuid": "64d50d8f-cc35-499c-b340-4a0c351be4fc",
       "width": 0,
       "x": 230,
-      "y": 680,
+      "y": 615,
       "zOrder": 3,
       "numberProperties": [
         {
@@ -109,7 +109,7 @@
       "persistentUuid": "64dd58f4-a63e-4e3b-a97d-61cb845e3948",
       "width": 0,
       "x": 430,
-      "y": 680,
+      "y": 615,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,7 +131,7 @@
       "persistentUuid": "7b0077be-7330-4560-addb-7148ea7fc533",
       "width": 0,
       "x": 630,
-      "y": 680,
+      "y": 615,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -153,7 +153,7 @@
       "persistentUuid": "0d4020a8-c356-4129-a325-efedbbd16ec7",
       "width": 0,
       "x": 830,
-      "y": 680,
+      "y": 615,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -175,7 +175,7 @@
       "persistentUuid": "919ac2aa-c71e-4ad9-b921-df566a5b4183",
       "width": 0,
       "x": 1030,
-      "y": 680,
+      "y": 615,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,13 +198,88 @@
       "angle": 0,
       "customSize": true,
       "height": 231,
-      "layer": "",
+      "layer": "FG",
       "name": "Foreground",
       "persistentUuid": "beab43ce-0f30-4fd8-9713-4bc184e7ce43",
       "width": 1328,
       "x": -14,
       "y": 517,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "814cbfef-eb57-4f03-af9c-365dc4cb85b8",
+      "width": 0,
+      "x": 209,
+      "y": 645,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "556d6f5a-3a88-4a06-9efd-f2d173245d5c",
+      "width": 0,
+      "x": 1002,
+      "y": 645,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "62f96b7f-a979-4b83-a798-90a3eeb633ed",
+      "width": 0,
+      "x": 804,
+      "y": 645,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "c87fcadb-eac1-482d-b25c-314bb9914548",
+      "width": 0,
+      "x": 604,
+      "y": 645,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "a9450cd4-9585-4338-94ec-5d3bca235126",
+      "width": 0,
+      "x": 406,
+      "y": 645,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -409,7 +484,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "root2.png",
                   "points": [],
                   "originPoint": {
@@ -423,7 +498,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33.11280822753906,
+                        "y": 72.44348907470703
+                      },
+                      {
+                        "x": 49.27699661254883,
+                        "y": 70.04298400878906
+                      },
+                      {
+                        "x": 86,
+                        "y": 196
+                      },
+                      {
+                        "x": 0,
+                        "y": 196
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -591,6 +685,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Actions",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8013624,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8077680,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "FG",
       "visibility": true,
       "cameras": [],
       "effects": []
