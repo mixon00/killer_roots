@@ -60,6 +60,26 @@
             "Ludek",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "PointsTxt",
+            "=",
+            "ToString(GlobalVariable(score))"
+          ]
         }
       ]
     },

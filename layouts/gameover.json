@@ -53,6 +53,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "ScoreTxt",
+      "persistentUuid": "852fe7f8-7e9b-4071-8ec3-9c86e93dcc74",
+      "width": 488,
+      "x": 393,
+      "y": 330,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -98,6 +113,28 @@
         "b": 255,
         "g": 255,
         "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ScoreTxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score: 0",
+      "font": "fonts/American Captain.ttf",
+      "textAlignment": "center",
+      "characterSize": 100,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
       }
     }
   ],
@@ -198,6 +235,31 @@
             "",
             "\"Game\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ScoreTxt",
+            "=",
+            "\"Score: \" + ToString(GlobalVariable(score))"
           ]
         }
       ]

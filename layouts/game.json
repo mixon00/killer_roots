@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6791409909776779,
+    "zoomFactor": 0.8433965451449563,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -348,6 +348,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 31,
+      "layer": "",
+      "name": "PointsTxt",
+      "persistentUuid": "26015fe7-dff0-4233-b542-07a71b774a5b",
+      "width": 24,
+      "x": 1231,
+      "y": 34,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -375,9 +390,9 @@
       "textAlignment": "right",
       "characterSize": 32,
       "color": {
-        "b": 27,
-        "g": 27,
-        "r": 201
+        "b": 28,
+        "g": 231,
+        "r": 248
       }
     },
     {
@@ -1124,6 +1139,14 @@
             "\"Points\"",
             "0",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableClearChildren"
+          },
+          "parameters": [
+            "score"
           ]
         }
       ]

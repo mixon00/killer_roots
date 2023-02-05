@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Game",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -276,7 +276,14 @@
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "score",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -288,10 +295,6 @@
     }
   ],
   "externalEvents": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/pointsevents"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/ludekevents"
@@ -319,11 +322,6 @@
       "referenceTo": "/eventsFunctionsExtensions/objectspawner"
     }
   ],
-  "externalLayouts": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/points"
-    }
-  ],
+  "externalLayouts": [],
   "externalSourceFiles": []
 }
