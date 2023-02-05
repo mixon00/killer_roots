@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Game",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -63,31 +63,459 @@
         "metadata": "",
         "name": "fonts/American Captain.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ludek1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ludek1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "drzewo lewo scena1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drzewo lewo scena1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "root.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "root.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "drzewo lewo scena14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drzewo lewo scena14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "drzewo lewo scena2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drzewo lewo scena2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RootSpawner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RootSpawner.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "root2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "root2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "foreground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "foreground grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "foreground grass.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "foreground dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "foreground dirt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lamberjack_walking00032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamberjack_walking00032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Pictures/Krita/RootSpawner_open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Pictures\\Krita\\RootSpawner_open.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RootSpawner_open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RootSpawner_open.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RootSpawner_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RootSpawner_hover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "audio/hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/killer_song.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/killer_song.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/root.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/root.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/kill.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/kill.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "audio/gameover.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/gameover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TreeGreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TreeGreen.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "score",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/pointsevents"
-    }
-  ],
-  "eventsFunctionsExtensions": [],
-  "externalLayouts": [
+      "referenceTo": "/externalEvents/ludekevents"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/points"
+      "referenceTo": "/externalEvents/rootevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/treeevents"
     }
   ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    }
+  ],
+  "externalLayouts": [],
   "externalSourceFiles": []
 }

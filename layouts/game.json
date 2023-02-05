@@ -18,12 +18,353 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.44036845014236875,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "spawn_time",
+      "type": "number",
+      "value": 5
+    },
+    {
+      "folded": true,
+      "name": "spawned",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 798,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "91826a87-2a3c-45f8-91af-f1cac0f88862",
+      "width": 1330,
+      "x": -15,
+      "y": -66,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Actions",
+      "name": "Ludek",
+      "persistentUuid": "09dc405f-948f-49f5-9032-2868120c253c",
+      "width": 0,
+      "x": 1306,
+      "y": 650,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Actions",
+      "name": "Root",
+      "persistentUuid": "64d50d8f-cc35-499c-b340-4a0c351be4fc",
+      "width": 0,
+      "x": 230,
+      "y": 615,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "is_hiding",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Actions",
+      "name": "Root",
+      "persistentUuid": "64dd58f4-a63e-4e3b-a97d-61cb845e3948",
+      "width": 0,
+      "x": 430,
+      "y": 615,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Actions",
+      "name": "Root",
+      "persistentUuid": "7b0077be-7330-4560-addb-7148ea7fc533",
+      "width": 0,
+      "x": 630,
+      "y": 615,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Actions",
+      "name": "Root",
+      "persistentUuid": "0d4020a8-c356-4129-a325-efedbbd16ec7",
+      "width": 0,
+      "x": 830,
+      "y": 615,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Actions",
+      "name": "Root",
+      "persistentUuid": "919ac2aa-c71e-4ad9-b921-df566a5b4183",
+      "width": 0,
+      "x": 1030,
+      "y": 615,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "is_hiding",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 231,
+      "layer": "Grass",
+      "name": "ForegroundGrass",
+      "persistentUuid": "beab43ce-0f30-4fd8-9713-4bc184e7ce43",
+      "width": 1328,
+      "x": -14,
+      "y": 517,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "814cbfef-eb57-4f03-af9c-365dc4cb85b8",
+      "width": 0,
+      "x": 271,
+      "y": 660,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "556d6f5a-3a88-4a06-9efd-f2d173245d5c",
+      "width": 0,
+      "x": 1080,
+      "y": 660,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "62f96b7f-a979-4b83-a798-90a3eeb633ed",
+      "width": 0,
+      "x": 878,
+      "y": 660,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "c87fcadb-eac1-482d-b25c-314bb9914548",
+      "width": 0,
+      "x": 677,
+      "y": 660,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "RootSpawner",
+      "persistentUuid": "a9450cd4-9585-4338-94ec-5d3bca235126",
+      "width": 0,
+      "x": 471,
+      "y": 660,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 68,
+      "layer": "FG",
+      "name": "ForegroundDirt",
+      "persistentUuid": "3e81817f-3f98-49b7-9e4a-853c6ac0de01",
+      "width": 1328,
+      "x": -17,
+      "y": 664,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "FG",
+      "name": "HealthBar",
+      "persistentUuid": "2a609569-6657-4d51-923c-a6bb30fa1c19",
+      "width": 0,
+      "x": -39,
+      "y": -127,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 31,
+      "layer": "",
+      "name": "PointsTxt",
+      "persistentUuid": "26015fe7-dff0-4233-b542-07a71b774a5b",
+      "width": 121,
+      "x": 1134,
+      "y": 34,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "",
@@ -49,10 +390,1221 @@
       "textAlignment": "right",
       "characterSize": 32,
       "color": {
-        "b": 27,
-        "g": 27,
-        "r": 201
+        "b": 28,
+        "g": 231,
+        "r": 248
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Ludek",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [
+        {
+          "folded": true,
+          "name": "cooldown",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "canAttack",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LinearMovement",
+          "type": "LinearMovement::LinearMovement",
+          "SpeedX": -100,
+          "SpeedY": 0
+        },
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 100,
+          "OffsetY": 576,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 1000
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lamberjack_walking0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 69.72393590679481,
+                    "y": 131.63788733195776
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1111,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lamberjack_walking00002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lamberjack_walking00013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lamberjack_walking00022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lamberjack_walking00032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1111,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0000.png",
+                  "points": [
+                    {
+                      "name": "Attack",
+                      "x": 183.09477868366722,
+                      "y": 22.520497507742007
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 109.00143432617188,
+                        "y": 58.9255485534668
+                      },
+                      {
+                        "x": 201.20663452148438,
+                        "y": 15.201349258422852
+                      },
+                      {
+                        "x": 151.35488891601562,
+                        "y": 165.8997039794922
+                      },
+                      {
+                        "x": 104.34994506835938,
+                        "y": 163.47177124023438
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0001.png",
+                  "points": [
+                    {
+                      "name": "Attack",
+                      "x": 177.48304941982718,
+                      "y": 21.72592226090572
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 95.9686508178711,
+                        "y": 72.48066711425781
+                      },
+                      {
+                        "x": 193.72055053710938,
+                        "y": 12.3422212600708
+                      },
+                      {
+                        "x": 152.79641723632812,
+                        "y": 165.4564666748047
+                      },
+                      {
+                        "x": 99.00390625,
+                        "y": 166
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96.21351623535156,
+                        "y": 70.18592071533203
+                      },
+                      {
+                        "x": 188.70147705078125,
+                        "y": 11.793793678283691
+                      },
+                      {
+                        "x": 152.1428680419922,
+                        "y": 162.86070251464844
+                      },
+                      {
+                        "x": 99.80579376220703,
+                        "y": 165.75164794921875
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 81.39614868164062,
+                        "y": 11.98848819732666
+                      },
+                      {
+                        "x": 177.4500732421875,
+                        "y": 9.097116470336914
+                      },
+                      {
+                        "x": 151.5922393798828,
+                        "y": 166
+                      },
+                      {
+                        "x": 105.23958587646484,
+                        "y": 166
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0004.png",
+                  "points": [
+                    {
+                      "name": "Attack",
+                      "x": 28.071189001806466,
+                      "y": 73.46305878670286
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.997066497802734,
+                        "y": 59.980289459228516
+                      },
+                      {
+                        "x": 65.80293273925781,
+                        "y": 48.4669075012207
+                      },
+                      {
+                        "x": 174.4297637939453,
+                        "y": 166
+                      },
+                      {
+                        "x": 121.34197998046875,
+                        "y": 166
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10.483969688415527,
+                        "y": 64.13667297363281
+                      },
+                      {
+                        "x": 53.92037582397461,
+                        "y": 46.38251876831055
+                      },
+                      {
+                        "x": 179.69142150878906,
+                        "y": 161.88360595703125
+                      },
+                      {
+                        "x": 106.54644012451172,
+                        "y": 166
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.259242057800293,
+                        "y": 60.746158599853516
+                      },
+                      {
+                        "x": 53.19977569580078,
+                        "y": 50.957420349121094
+                      },
+                      {
+                        "x": 181.52835083007812,
+                        "y": 162.1551971435547
+                      },
+                      {
+                        "x": 116.7628402709961,
+                        "y": 165.52992248535156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kaltka0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.104680061340332,
+                        "y": 61.05332946777344
+                      },
+                      {
+                        "x": 56.128334045410156,
+                        "y": 49.30723190307617
+                      },
+                      {
+                        "x": 172.18690490722656,
+                        "y": 160.71324157714844
+                      },
+                      {
+                        "x": 117.20326232910156,
+                        "y": 166
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No_animation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "drzewo lewo scena2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Root",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "is_hiding",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "cooldown",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "root2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33.11280822753906,
+                        "y": 72.44348907470703
+                      },
+                      {
+                        "x": 49.27699661254883,
+                        "y": 70.04298400878906
+                      },
+                      {
+                        "x": 86,
+                        "y": 196
+                      },
+                      {
+                        "x": 0,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RootSpawner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "spawn_index",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "RootSpawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 69.12161048134271,
+                    "y": 24.592528960850284
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "RootSpawner_open.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 76.42826096306774,
+                    "y": 40.48951244456339
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "RootSpawner_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 77,
+                    "y": 35
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ForegroundGrass",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "no_anim",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "foreground grass.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1503,
+                        "y": 229
+                      },
+                      {
+                        "x": 1503,
+                        "y": 229
+                      },
+                      {
+                        "x": 0,
+                        "y": 229
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ForegroundDirt",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No_anim",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "foreground dirt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1505,
+                        "y": 83
+                      },
+                      {
+                        "x": 1505,
+                        "y": 83
+                      },
+                      {
+                        "x": 0,
+                        "y": 83
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 75,
+      "emitterForceMax": 250,
+      "emitterForceMin": 150,
+      "flow": 1000,
+      "maxParticleNb": 300,
+      "name": "BloodEmitter",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 27,
+      "particleGravityX": 0,
+      "particleGravityY": 1000,
+      "particleGreen1": 51,
+      "particleGreen2": 2,
+      "particleLifeTimeMax": 4,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 255,
+      "particleRed2": 208,
+      "particleSize1": 50,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": 1000,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "HealthBar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 255,
+          "CurrentHealth": 0,
+          "MaxHealth": 255,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "TreeGreen.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 180,
+      "emitterForceMax": 82,
+      "emitterForceMin": 100,
+      "flow": 45,
+      "maxParticleNb": 300,
+      "name": "AttackParticlesEmitter",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 20,
+      "particleAngle2": 50,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 42,
+      "particleBlue2": 42,
+      "particleGravityX": 0,
+      "particleGravityY": 1000,
+      "particleGreen1": 87,
+      "particleGreen2": 87,
+      "particleLifeTimeMax": 5,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 139,
+      "particleRed2": 139,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 3,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": 10,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "BloodFloor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "places",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 137.08049871593755,
+                    "y": 65.00247008035919
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 133.332668539544,
+                    "y": 64.45846387271324
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 73.48709351463336,
+                    "y": 69.00276940370995
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.79077779417247,
+                    "y": 67.81174289897633
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 86.59304539350435,
+                    "y": 46.40307103816404
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 88.7180616720351,
+                    "y": 47.81110415332524
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 143.85675299913262,
+                    "y": 51.788890156656215
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00042.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 110.6079180714989,
+                    "y": 41.02501913100723
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00052.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 112.87116752609344,
+                    "y": 85.5027144076646
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "kaltka00062.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 66.75795258497095,
+                    "y": 75.96766258667944
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -61,7 +1613,21 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "PointsEvents"
+      "target": "LudekEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "RootEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "TreeEvents"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -86,8 +1652,33 @@
             "0",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableClearChildren"
+          },
+          "parameters": [
+            "score"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "audio/killer_song.mp3",
+            "yes",
+            "",
+            ""
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -112,7 +1703,57 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 7458648,
+      "ambientLightColorG": -2147483568,
+      "ambientLightColorR": 66,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Actions",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8013624,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8077680,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "FG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8410072,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9455080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Grass",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "LinearMovement",
+      "type": "LinearMovement::LinearMovement"
+    },
+    {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }
