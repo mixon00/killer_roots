@@ -243,6 +243,15 @@
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Pictures/Krita/RootSpawner_open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Pictures\\Krita\\RootSpawner_open.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
