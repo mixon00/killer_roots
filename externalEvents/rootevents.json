@@ -92,6 +92,36 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BloodFloor",
+            "Ludek.X() + RandomInRange(0, 10)",
+            "Ludek.Y() + RandomInRange(0, 10)",
+            "\"FG\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "BloodFloor",
+            "=",
+            "RandomInRange(0,6)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseAnimation"
+          },
+          "parameters": [
+            "BloodFloor"
+          ]
         }
       ]
     },

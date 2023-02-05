@@ -38,7 +38,7 @@
             "",
             "\"spawn\"",
             ">=",
-            "Variable(spawn_time) - (mod(Variable(spawned), 10) / 10)"
+            "max(Variable(spawn_time) - (mod(Variable(spawned), 10) / 2), 0.2)"
           ]
         }
       ],

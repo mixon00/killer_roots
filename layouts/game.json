@@ -356,8 +356,8 @@
       "layer": "",
       "name": "PointsTxt",
       "persistentUuid": "26015fe7-dff0-4233-b542-07a71b774a5b",
-      "width": 24,
-      "x": 1231,
+      "width": 121,
+      "x": 1134,
       "y": 34,
       "zOrder": 13,
       "numberProperties": [],
@@ -1487,14 +1487,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 137.08049871593755,
+                    "y": 65.00247008035919
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 133.332668539544,
+                    "y": 64.45846387271324
                   },
                   "customCollisionMask": []
                 },
@@ -1504,14 +1504,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 73.48709351463336,
+                    "y": 69.00276940370995
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.79077779417247,
+                    "y": 67.81174289897633
                   },
                   "customCollisionMask": []
                 },
@@ -1521,14 +1521,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 86.59304539350435,
+                    "y": 46.40307103816404
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 88.7180616720351,
+                    "y": 47.81110415332524
                   },
                   "customCollisionMask": []
                 },
@@ -1538,8 +1538,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 143.85675299913262,
+                    "y": 51.788890156656215
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1555,8 +1555,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 110.6079180714989,
+                    "y": 41.02501913100723
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1572,8 +1572,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 112.87116752609344,
+                    "y": 85.5027144076646
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1589,8 +1589,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 66.75795258497095,
+                    "y": 75.96766258667944
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1733,7 +1733,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Grass",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
