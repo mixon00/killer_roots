@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8433965451449563,
+    "zoomFactor": 0.44036845014236875,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -61,7 +61,7 @@
       "persistentUuid": "09dc405f-948f-49f5-9032-2868120c253c",
       "width": 0,
       "x": 1306,
-      "y": 510,
+      "y": 650,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -407,6 +407,12 @@
           "name": "cooldown",
           "type": "number",
           "value": 2
+        },
+        {
+          "folded": true,
+          "name": "canAttack",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -434,7 +440,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -443,8 +449,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 69.72393590679481,
+                    "y": 131.63788733195776
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -491,8 +497,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -527,8 +533,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -563,8 +569,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -599,8 +605,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 69.00232338690215,
+                    "y": 133.04487826645894
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -638,17 +644,23 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.111,
+              "looping": false,
+              "timeBetweenFrames": 0.1111,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0000.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Attack",
+                      "x": 183.09477868366722,
+                      "y": 22.520497507742007
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -656,16 +668,41 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 109.00143432617188,
+                        "y": 58.9255485534668
+                      },
+                      {
+                        "x": 201.20663452148438,
+                        "y": 15.201349258422852
+                      },
+                      {
+                        "x": 151.35488891601562,
+                        "y": 165.8997039794922
+                      },
+                      {
+                        "x": 104.34994506835938,
+                        "y": 163.47177124023438
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0001.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Attack",
+                      "x": 177.48304941982718,
+                      "y": 21.72592226090572
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -673,16 +710,35 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 95.9686508178711,
+                        "y": 72.48066711425781
+                      },
+                      {
+                        "x": 193.72055053710938,
+                        "y": 12.3422212600708
+                      },
+                      {
+                        "x": 152.79641723632812,
+                        "y": 165.4564666748047
+                      },
+                      {
+                        "x": 99.00390625,
+                        "y": 166
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -690,16 +746,35 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96.21351623535156,
+                        "y": 70.18592071533203
+                      },
+                      {
+                        "x": 188.70147705078125,
+                        "y": 11.793793678283691
+                      },
+                      {
+                        "x": 152.1428680419922,
+                        "y": 162.86070251464844
+                      },
+                      {
+                        "x": 99.80579376220703,
+                        "y": 165.75164794921875
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0003.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -707,16 +782,41 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 81.39614868164062,
+                        "y": 11.98848819732666
+                      },
+                      {
+                        "x": 177.4500732421875,
+                        "y": 9.097116470336914
+                      },
+                      {
+                        "x": 151.5922393798828,
+                        "y": 166
+                      },
+                      {
+                        "x": 105.23958587646484,
+                        "y": 166
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0004.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Attack",
+                      "x": 28.071189001806466,
+                      "y": 73.46305878670286
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -724,16 +824,35 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20.997066497802734,
+                        "y": 59.980289459228516
+                      },
+                      {
+                        "x": 65.80293273925781,
+                        "y": 48.4669075012207
+                      },
+                      {
+                        "x": 174.4297637939453,
+                        "y": 166
+                      },
+                      {
+                        "x": 121.34197998046875,
+                        "y": 166
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0005.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -741,16 +860,35 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10.483969688415527,
+                        "y": 64.13667297363281
+                      },
+                      {
+                        "x": 53.92037582397461,
+                        "y": 46.38251876831055
+                      },
+                      {
+                        "x": 179.69142150878906,
+                        "y": 161.88360595703125
+                      },
+                      {
+                        "x": 106.54644012451172,
+                        "y": 166
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0006.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -758,16 +896,35 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.259242057800293,
+                        "y": 60.746158599853516
+                      },
+                      {
+                        "x": 53.19977569580078,
+                        "y": 50.957420349121094
+                      },
+                      {
+                        "x": 181.52835083007812,
+                        "y": 162.1551971435547
+                      },
+                      {
+                        "x": 116.7628402709961,
+                        "y": 165.52992248535156
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "kaltka0007.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 127.80461312652928,
+                    "y": 165.8525327900386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -775,7 +932,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.104680061340332,
+                        "y": 61.05332946777344
+                      },
+                      {
+                        "x": 56.128334045410156,
+                        "y": 49.30723190307617
+                      },
+                      {
+                        "x": 172.18690490722656,
+                        "y": 160.71324157714844
+                      },
+                      {
+                        "x": 117.20326232910156,
+                        "y": 166
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1241,6 +1417,51 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 180,
+      "emitterForceMax": 82,
+      "emitterForceMin": 100,
+      "flow": 45,
+      "maxParticleNb": 300,
+      "name": "AttackParticlesEmitter",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 20,
+      "particleAngle2": 50,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 42,
+      "particleBlue2": 42,
+      "particleGravityX": 0,
+      "particleGravityY": 1000,
+      "particleGreen1": 87,
+      "particleGreen2": 87,
+      "particleLifeTimeMax": 5,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 139,
+      "particleRed2": 139,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 3,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": 10,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [

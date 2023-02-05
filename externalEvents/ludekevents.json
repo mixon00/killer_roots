@@ -60,7 +60,7 @@
             "",
             "Ludek",
             "1305",
-            " RandomInRange(505, 520)",
+            " RandomInRange(650, 670)",
             "\"Actions\""
           ]
         },
@@ -87,6 +87,16 @@
             "Ludek",
             "<=",
             "230"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "Ludek",
+            "\"Attack\""
           ]
         }
       ],
@@ -174,6 +184,93 @@
         },
         {
           "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Ludek",
+            "\"Attack\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Ludek",
+            "canAttack",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimationEnded2"
+          },
+          "parameters": [
+            "Ludek"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Ludek",
+            "\"Idle\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Ludek",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sprite"
+              },
+              "parameters": [
+                "Ludek",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Ludek",
+                "canAttack",
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Health::Health::Hit"
           },
           "parameters": [
@@ -183,6 +280,28 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Ludek",
+            "canAttack",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "AttackParticlesEmitter",
+            "Ludek.PointX(\"Attack\")",
+            "Ludek.PointY(\"Attack\")",
+            "\"Actions\""
           ]
         }
       ]
