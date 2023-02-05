@@ -150,15 +150,6 @@
             "is_hiding",
             "False"
           ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "RootSpawner",
-            "\"Open\""
-          ]
         }
       ]
     },
@@ -189,6 +180,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
             "value": "Tween::AddObjectPositionYTween"
           },
           "parameters": [
@@ -211,7 +210,7 @@
             "\"down_opacity\"",
             "127",
             "\"linear\"",
-            "50",
+            "300",
             ""
           ]
         }
