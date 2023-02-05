@@ -31,7 +31,7 @@
     },
     {
       "folded": true,
-      "name": "level",
+      "name": "spawned",
       "type": "number",
       "value": 0
     }
@@ -1516,6 +1516,18 @@
           },
           "parameters": [
             "score"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "audio/killer_song.mp3",
+            "yes",
+            "",
+            ""
           ]
         }
       ]

@@ -80,6 +80,18 @@
             "=",
             "ToString(GlobalVariable(score))"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "audio/kill.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -150,6 +162,18 @@
             "is_hiding",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "audio/root.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -176,14 +200,6 @@
             "Root",
             "is_hiding",
             "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.5"
           ]
         },
         {
@@ -215,22 +231,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "Root",
-            "Tween",
-            "\"down\""
-          ]
-        }
-      ],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -284,6 +284,16 @@
             "Root",
             "is_hiding",
             "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Root",
+            "=",
+            "615"
           ]
         }
       ]

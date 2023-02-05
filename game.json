@@ -352,6 +352,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "audio/killer_song.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/killer_song.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/root.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/root.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/kill.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/kill.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

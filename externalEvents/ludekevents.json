@@ -38,7 +38,7 @@
             "",
             "\"spawn\"",
             ">=",
-            "Variable(spawn_time)"
+            "Variable(spawn_time) - (mod(Variable(spawned), 10) / 10)"
           ]
         }
       ],
@@ -72,6 +72,16 @@
             "Ludek",
             "=",
             "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "spawned",
+            "+",
+            "1"
           ]
         }
       ]
@@ -317,6 +327,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }
