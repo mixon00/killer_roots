@@ -382,6 +382,69 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka00062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka00062.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
