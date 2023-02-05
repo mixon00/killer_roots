@@ -63,6 +63,16 @@
             "510",
             "\"Actions\""
           ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Ludek",
+            "=",
+            "2"
+          ]
         }
       ]
     },
