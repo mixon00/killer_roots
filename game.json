@@ -270,6 +270,78 @@
         "name": "RootSpawner_hover.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kaltka0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaltka0007.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
