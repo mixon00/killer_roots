@@ -261,6 +261,15 @@
         "name": "RootSpawner_open.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RootSpawner_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RootSpawner_hover.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
