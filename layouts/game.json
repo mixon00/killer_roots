@@ -416,7 +416,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "lamberjack_walking0001.png",
                   "points": [],
                   "originPoint": {
@@ -430,7 +430,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -445,7 +464,7 @@
               "timeBetweenFrames": 0.1111,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "lamberjack_walking00002.png",
                   "points": [],
                   "originPoint": {
@@ -459,10 +478,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "lamberjack_walking00013.png",
                   "points": [],
                   "originPoint": {
@@ -476,10 +514,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "lamberjack_walking00022.png",
                   "points": [],
                   "originPoint": {
@@ -493,10 +550,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "lamberjack_walking00032.png",
                   "points": [],
                   "originPoint": {
@@ -510,7 +586,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47.17063522338867,
+                        "y": 35.62316131591797
+                      },
+                      {
+                        "x": 62.00113296508789,
+                        "y": 34.83430862426758
+                      },
+                      {
+                        "x": 124.58063507080078,
+                        "y": 132.04087829589844
+                      },
+                      {
+                        "x": 28.13722801208496,
+                        "y": 133
+                      }
+                    ]
+                  ]
                 }
               ]
             }
