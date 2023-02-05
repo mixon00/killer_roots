@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33957049548883944,
+    "zoomFactor": 0.5710872247649849,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -198,7 +198,7 @@
       "angle": 0,
       "customSize": true,
       "height": 231,
-      "layer": "FG",
+      "layer": "Grass",
       "name": "ForegroundGrass",
       "persistentUuid": "beab43ce-0f30-4fd8-9713-4bc184e7ce43",
       "width": 1328,
@@ -217,8 +217,8 @@
       "name": "RootSpawner",
       "persistentUuid": "814cbfef-eb57-4f03-af9c-365dc4cb85b8",
       "width": 0,
-      "x": 209,
-      "y": 645,
+      "x": 271,
+      "y": 660,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -239,8 +239,8 @@
       "name": "RootSpawner",
       "persistentUuid": "556d6f5a-3a88-4a06-9efd-f2d173245d5c",
       "width": 0,
-      "x": 1002,
-      "y": 645,
+      "x": 1080,
+      "y": 660,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,8 +261,8 @@
       "name": "RootSpawner",
       "persistentUuid": "62f96b7f-a979-4b83-a798-90a3eeb633ed",
       "width": 0,
-      "x": 804,
-      "y": 645,
+      "x": 878,
+      "y": 660,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -283,8 +283,8 @@
       "name": "RootSpawner",
       "persistentUuid": "c87fcadb-eac1-482d-b25c-314bb9914548",
       "width": 0,
-      "x": 604,
-      "y": 645,
+      "x": 677,
+      "y": 660,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -305,8 +305,8 @@
       "name": "RootSpawner",
       "persistentUuid": "a9450cd4-9585-4338-94ec-5d3bca235126",
       "width": 0,
-      "x": 406,
-      "y": 645,
+      "x": 471,
+      "y": 660,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -769,8 +769,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 69.12161048134271,
+                    "y": 24.592528960850284
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -809,12 +809,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "..\\..\\..\\Pictures\\Krita\\RootSpawner_open.png",
+                  "image": "RootSpawner_open.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 76.42826096306774,
+                    "y": 40.48951244456339
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1126,6 +1126,17 @@
       "isLightingLayer": false,
       "name": "FG",
       "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8410072,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9455080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Grass",
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

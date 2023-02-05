@@ -102,6 +102,17 @@
                 "Tween",
                 "\"down\""
               ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "RootSpawner",
+                "spawn_index",
+                "=",
+                "Root.Variable(index)"
+              ]
             }
           ]
         }
@@ -129,6 +140,15 @@
             "Root",
             "is_hiding",
             "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "RootSpawner",
+            "\"Open\""
           ]
         }
       ]
