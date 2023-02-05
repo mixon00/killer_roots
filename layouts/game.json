@@ -386,7 +386,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": true,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "cooldown",
+          "type": "number",
+          "value": 2
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -764,7 +771,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "RootSpawner.png",
                   "points": [],
                   "originPoint": {
@@ -778,22 +785,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 160,
-                        "y": 66
-                      },
-                      {
-                        "x": 160,
-                        "y": 66
-                      },
-                      {
-                        "x": 0,
-                        "y": 66
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -842,8 +834,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 77,
+                    "y": 35
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1024,7 +1016,36 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 300,
+          "CurrentHealth": 0,
+          "MaxHealth": 300,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -1171,6 +1192,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
     {
       "name": "LinearMovement",
       "type": "LinearMovement::LinearMovement"

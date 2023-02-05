@@ -135,6 +135,55 @@
             "Ludek",
             "\"Walk\""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Ludek",
+            "\"attack\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Ludek",
+            "\"attack\"",
+            ">=",
+            "Ludek.Variable(cooldown)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Ludek",
+            "\"attack\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "HealthBar",
+            "Health",
+            "10",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     }

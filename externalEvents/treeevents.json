@@ -8,19 +8,54 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "Health::Health::IsJustDamaged"
           },
           "parameters": [
+            "HealthBar",
+            "Health",
             ""
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeWidth"
+          },
+          "parameters": [
+            "HealthBar",
+            "=",
+            "HealthBar.Health::Health()"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsDead"
+          },
+          "parameters": [
+            "HealthBar",
+            "Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"GameOver\"",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
