@@ -385,7 +385,7 @@
       "name": "Ludek",
       "tags": "",
       "type": "Sprite",
-      "updateIfNotVisible": false,
+      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -412,7 +412,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -437,12 +437,12 @@
           ]
         },
         {
-          "name": "Walking",
+          "name": "Walk",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.24,
+              "timeBetweenFrames": 0.1111,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,

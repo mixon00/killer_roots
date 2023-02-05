@@ -100,6 +100,41 @@
             "LinearMovement",
             "no"
           ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Ludek",
+            "\"Idle\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Ludek",
+            ">=",
+            "230"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Ludek",
+            "\"Walk\""
+          ]
         }
       ]
     }
