@@ -445,6 +445,16 @@
         "name": "kaltka00062.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "audio/gameover.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/gameover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

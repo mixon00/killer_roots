@@ -54,6 +54,18 @@
             "\"GameOver\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "audio/gameover.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     }
