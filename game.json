@@ -342,6 +342,16 @@
         "name": "kaltka0007.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "audio/hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

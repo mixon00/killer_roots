@@ -303,6 +303,18 @@
             "Ludek.PointY(\"Attack\")",
             "\"Actions\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "audio/hit.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     }
