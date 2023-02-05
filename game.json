@@ -455,6 +455,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TreeGreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TreeGreen.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

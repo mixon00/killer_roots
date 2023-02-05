@@ -342,8 +342,8 @@
       "name": "HealthBar",
       "persistentUuid": "2a609569-6657-4d51-923c-a6bb30fa1c19",
       "width": 0,
-      "x": 30,
-      "y": 34,
+      "x": -39,
+      "y": -127,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -1359,9 +1359,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 300,
+          "Health": 255,
           "CurrentHealth": 0,
-          "MaxHealth": 300,
+          "MaxHealth": 255,
           "DamageCooldown": 0,
           "IsHealthJustDamaged": false,
           "HealthRegenRate": 0,
@@ -1397,7 +1397,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite",
+                  "image": "TreeGreen.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

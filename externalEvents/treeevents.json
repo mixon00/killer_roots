@@ -20,7 +20,7 @@
       "actions": [
         {
           "type": {
-            "value": "ChangeWidth"
+            "value": "Opacity"
           },
           "parameters": [
             "HealthBar",
